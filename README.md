@@ -18,3 +18,11 @@
 2. Install the required libraries:
    ```bash
    pip install pillow piexif
+
+
+
+3. Place your images in the same directory as the script.
+4. Run the script using your Python IDE or command line:
+   ```bash
+   python images_metadata_cleaner.py
+5. The script will process all the images in the folder, removing any metadata.
