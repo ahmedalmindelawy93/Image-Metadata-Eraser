@@ -31,14 +31,12 @@
 4. A command prompt window will display messages indicating the progress. Press Enter to close the window when the process is complete.
 
 ## Requirements
-
-- **Clean Metadata**:
-- **Clean Metadata**:
-
-1. Python 3.6+ (if using the Python script)
-2. Pillow and piexif Python libraries
+- **Python 3.6+ (if using the Python script)**:
+- **Pillow and piexif Python libraries**:
 
 Installation
 To install the required Python libraries, run:
    ```bash
     pip install pillow piexif
+
+
