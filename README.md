@@ -36,15 +36,15 @@
 
 Installation
 To install the required Python libraries, run:
-   ```bash
-   pip install pillow piexif
+   
+    ```bash
+     pip install pillow piexif
 
 
 
 
 
-
-## Building the Standalone Executable
+### Building the Standalone Executable
 
 To create a standalone executable version of the tool, follow these steps:
 
