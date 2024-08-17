@@ -37,6 +37,51 @@
 Installation
 To install the required Python libraries, run:
    ```bash
-    pip install pillow piexif
+   pip install pillow piexif
+
+
+
+
+
+
+## Building the Standalone Executable
+
+To create a standalone executable version of the tool, follow these steps:
+
+1. **Open Command Prompt (CMD):**
+   - Press `Win + R`, type `cmd`, and hit `Enter`.
+
+2. **Navigate to the Folder Containing the Code:**
+   - Use the `cd` command to change to the directory where your code is located:
+     ```bash
+     cd %Full_Path%\Image-Metadata-Eraser
+     ```
+     Replace `%Full_Path%` with the actual path to the `Image-Metadata-Eraser` folder.
+
+3. **Install PyInstaller:**
+   - If you haven't installed `PyInstaller` yet, run the following command:
+     ```bash
+     pip install pyinstaller
+     ```
+
+4. **Build the Executable:**
+   - To create the standalone executable, run the following command:
+     ```bash
+     pyinstaller --onefile Metadata-Eraser.py
+     ```
+   - This process takes about a minute. Once completed, you'll find the executable in the `dist` folder.
+
+5. **Locate the Executable:**
+   - Navigate to the `dist` folder, where you'll see the `Metadata-Eraser.exe` file.
+
+6. **Use the Executable:**
+   - Copy the `Metadata-Eraser.exe` file into the folder containing the images you want to clean.
+   - Double-click the `.exe` file to run it. The tool will automatically remove the metadata from all the images in that folder.
+
+7. **Verify Metadata Removal:**
+   - After the process completes, check the images to confirm that their metadata has been successfully removed.
+
+
+
 
 
